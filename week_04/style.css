@@ -1,0 +1,22 @@
+/* Beginning of style.css */
+h1 {
+  color: red;
+  font-size: 22px;
+}
+
+div {
+  background-color: #cecece;
+}
+
+.main-header {
+  font-size: 40px;
+}
+
+.first-divider {
+  background-color: green;
+}
+
+/* Classes / IDs */
+
+
+/* Box Model */

@@ -1,0 +1,51 @@
+body {
+  background-color: #FF5300;
+}
+.display {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 7em;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 1em;
+  color: #ffffff;
+}
+
+.intro {
+  padding: 5%;
+}
+
+.body-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  size: 100%;
+  padding: 5%;
+}
+
+.section-light .body-text {
+  color: #262626;
+}
+
+.columns {
+  background-color: #cecece;
+  border: 1px solid white;
+}
+
+.background-image-1 {
+  background-image: url("/images/hand-cut.svg");
+  background-size: cover;
+  background-position: 25% 25%;
+}
+
+.rot {
+  color: red;
+  font-size: 200px;
+
+  animation-duration: 1s;
+  animation-name: wobble;
+}

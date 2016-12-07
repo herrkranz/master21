@@ -10,8 +10,24 @@ body {
   color: #ffffff;
 }
 
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1em;
+  color: #ffffff;
+}
+
+.article-title {
+  background-color: #000000;
+  size: 100%;
+  padding: 5%;
+}
+
+
 .intro {
   padding: 5%;
+  height: 80vh;
 }
 
 .body-text {
@@ -39,7 +55,16 @@ body {
 .background-image-1 {
   background-image: url("/images/hand-cut.svg");
   background-size: cover;
+  /*background-size: cover;*/
   background-position: 25% 25%;
+}
+
+.project-image {
+  background-image: url("/images/twint_hero.jpg");
+  background-size: cover;
+  background-position: 25% 25%;
+  opacity: 0.95;
+  background-color: #000000;
 }
 
 .rot {

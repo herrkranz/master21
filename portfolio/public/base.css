@@ -1,29 +1,59 @@
+/*Overwrite default foundation max width*/
+
+.row {
+  max-width: 1200;
+}
+
+
+/*base.css*/
 body {
   background-color: #FF5300;
+  font-family: 'Fira Sans', sans-serif;
 }
+
+.box {
+  background-color: #333;
+  background-image: url("/images/testbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 0;
+}
+
+.box h1 {
+  color: white;
+}
+
+.box p {
+  color: white;
+}
+
+
+.centered-text {
+  text-align: center;
+}
+
+.orange-bg {
+  background-color: #FF5300;
+}
+
 .display {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 7em;
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
   font-style: italic;
   font-weight: 900;
   line-height: 1em;
+  text-align: left;
   color: #ffffff;
 }
 
 .title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 2em;
-  font-weight: 700;
-  line-height: 1em;
+  font-style: bold;
+  line-height: 1.2em;
+  text-align: left;
   color: #ffffff;
 }
-
-.article-title {
-  background-color: #000000;
-  size: 100%;
-  padding: 5%;
-}
-
 
 .intro {
   padding: 5%;
@@ -31,25 +61,17 @@ body {
 }
 
 .body-text {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2em;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.5em;
   color: #ffffff;
   font-weight: 300;
-}
-
-.section-light {
-  background-color: #f4f4f4;
-  size: 100%;
-  padding: 5%;
+  line-height: 1.2em;
+  text-align: left;
+  padding-top: 5%
 }
 
 .section-light .body-text {
   color: #262626;
-}
-
-.columns {
-  background-color: #cecece;
-  border: 1px solid white;
 }
 
 .background-image-1 {
@@ -65,12 +87,4 @@ body {
   background-position: 25% 25%;
   opacity: 0.95;
   background-color: #000000;
-}
-
-.rot {
-  color: red;
-  font-size: 200px;
-
-  animation-duration: 1s;
-  animation-name: wobble;
 }
